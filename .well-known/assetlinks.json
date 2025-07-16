@@ -1,14 +1,26 @@
 [
-  { 
+  {
     "relation": [
       "delegate_permission/common.handle_all_urls"
-    ], 
-    "target": { 
-      "namespace": "android_app", 
-      "package_name": "com.mycool.android.app", 
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dhis2.debug",
       "sha256_cert_fingerprints": [
-        "14:6D:E9:83:C5:73:06:50:D8:EE:B3:A8:37:9B:C6:FF:A2:81:22:36:26:F5:6D:24:01:46:5E:B5:7F:ab:33:09"
-      ] 
-    } 
+        "D6:37:F4:BF:3F:80:8C:A2:67:14:AD:80:73:D3:C2:62:85:8D:EF:7B:C8:28:0E:BC:AE:51:53:A0:86:3A:66:84"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dhis2",
+      "sha256_cert_fingerprints": [
+        "D6:37:F4:BF:3F:80:8C:A2:67:14:AD:80:73:D3:C2:62:85:8D:EF:7B:C8:28:0E:BC:AE:51:53:A0:86:3A:66:84"
+      ]
+    }
   }
 ]
