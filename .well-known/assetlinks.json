@@ -22,5 +22,18 @@
         "D6:37:F4:BF:3F:80:8C:A2:67:14:AD:80:73:D3:C2:62:85:8D:EF:7B:C8:28:0E:BC:AE:51:53:A0:86:3A:66:84"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dhis2.debug",
+      "sha256_cert_fingerprints":
+      [
+        "3A:A0:70:9C:8D:5C:AA:4D:F2:3C:45:DE:BD:58:8D:B4:99:E5:44:C5:53:E5:C0:9B:94:D8:E8:1F:80:FC:4F:10"
+      ]
+    }
   }
 ]
